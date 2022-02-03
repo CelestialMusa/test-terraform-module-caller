@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: FTech-AWS-Terraform-base-code
+  description: Creates a new repo with calling modules
+  annotations:
+    github.com/project-slug: CelestialMusa/FTech-softeng-terraform-base-code
+    sentry.io/project-slug: dir:.
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  lifecycle: experimental
+  owner: backstage
